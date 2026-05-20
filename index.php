@@ -1,3 +1,20 @@
+<?php
+
+if(isset($_POST['simpan'])){
+
+    $judul = $_POST['judul'];
+    $isi_catatan = $_POST['isi_catatan'];
+    $tanggal = $_POST['tanggal'];
+
+    echo "<h2>Data Catatan Berhasil Disimpan</h2>";
+
+    echo "Judul Catatan : " . $judul . "<br>";
+    echo "Isi Catatan : " . $isi_catatan . "<br>";
+    echo "Tanggal : " . $tanggal . "<br>";
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="id">
 <head>
